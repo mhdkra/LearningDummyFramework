@@ -1,0 +1,37 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'DummyFramework' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for DummyFramework
+  pod 'AWSCore'
+  pod 'AWSCognito'
+  pod 'AWSCognitoIdentityProvider'
+  pod 'AWSLambda'
+  pod 'AWSMobileClient'
+  pod 'AWSPinpoint'
+  pod 'AWSS3'
+  pod 'Crashlytics'   # per app
+#  pod 'Fabric'        # per app
+  pod 'Firebase/Core' # per app
+  pod 'Firebase/Crashlytics'
+  pod 'Firebase/Analytics'
+  pod 'FLEX', :configurations => ['Debug']
+  pod 'FontAwesome.swift'
+  pod 'IQKeyboardManager'
+  pod 'SkeletonView'
+  pod 'SVProgressHUD'
+  pod 'MLTransition'
+  pod 'SwiftMessages'
+  pod 'Texture/IGListKit', '~> 2.0'
+  pod 'Texture/PINRemoteImage', '~> 2.0'
+  pod 'Valet', '~> 3.0'
+  pod "CSStickyHeaderFlowLayout"
+  pod 'CircleProgressBar', '~> 0.32’
+  pod 'HWPopController', '~> 1.0.5'
+  pod 'Charts'
+  
+
+end
