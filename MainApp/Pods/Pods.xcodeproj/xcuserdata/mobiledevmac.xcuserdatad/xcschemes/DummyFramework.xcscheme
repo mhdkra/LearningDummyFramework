@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8ED0FFEA3572FDD6FD18EC85E39D75D3"
-               BuildableName = "CalsSDK.framework"
-               BlueprintName = "CalsSDK"
+               BlueprintIdentifier = "518DCA8C02441CBB1AB7484B406B1F3A"
+               BuildableName = "DummyFramework"
+               BlueprintName = "DummyFramework"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

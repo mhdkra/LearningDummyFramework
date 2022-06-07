@@ -1,16 +1,16 @@
 PODS:
-  - CalsSDK (1.0.0)
+  - DummyFramework (1.0.0)
 
 DEPENDENCIES:
-  - CalsSDK (from `../sdk`)
+  - DummyFramework (from `../`)
 
 EXTERNAL SOURCES:
-  CalsSDK:
-    :path: "../sdk"
+  DummyFramework:
+    :path: "../"
 
 SPEC CHECKSUMS:
-  CalsSDK: ca8db07fcadc2d40e31fa87b5c9c7f277ea57185
+  DummyFramework: c0f81ade9be0b6182266ae2919a5217785472b31
 
-PODFILE CHECKSUM: 1c2b1427cca2c2a352b2a1ffeb78d697db0cf5fc
+PODFILE CHECKSUM: c9042117b3d4ac9790c4790acb8a0b311c1f4f59
 
 COCOAPODS: 1.11.2

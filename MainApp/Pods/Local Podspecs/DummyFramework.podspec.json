@@ -1,0 +1,20 @@
+{
+  "name": "DummyFramework",
+  "version": "1.0.0",
+  "summary": "CalsSDK",
+  "description": "CalsSDK this is a framework for App",
+  "homepage": "https://www.cocoapods.org",
+  "license": "MIT (iOS)",
+  "authors": {
+    "Tiara Mahardika": "tiara.mahardika@digitalcenter.id"
+  },
+  "source": {
+    "git": "http://syddvwn@github.com/syddvwn/LearningDummyFramework.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "DummyFramework/DummyFramework/Modules/**/*.{h,m,swift}",
+  "resources": "DummyFramework/DummyFramework/Assets/**/*.{storyboard,xib,xcassets,json,imageset,png,plist,html}"
+}

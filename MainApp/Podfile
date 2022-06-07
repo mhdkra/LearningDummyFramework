@@ -6,8 +6,7 @@ target 'MainApp' do
   use_frameworks!
 
   # Pods for MainApp
-  pod 'DummyFramework', :path => '../LearningDummyFramework
-'
+  pod 'DummyFramework', :path => '../'
 
   target 'MainAppTests' do
     inherit! :search_paths
