@@ -1,0 +1,6 @@
+framework module CalsSDK {
+  umbrella header "CalsSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
