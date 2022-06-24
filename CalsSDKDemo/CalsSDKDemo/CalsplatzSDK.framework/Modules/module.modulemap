@@ -1,0 +1,11 @@
+framework module CalsplatzSDK {
+  umbrella header "CalsplatzSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module CalsplatzSDK.Swift {
+    header "CalsplatzSDK-Swift.h"
+    requires objc
+}

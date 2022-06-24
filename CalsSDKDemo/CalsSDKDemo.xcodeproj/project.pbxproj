@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3022F820285726CB004C79FC /* (null) in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		305CFE2C285338DA006EB04E /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 305CFE2A285338DA006EB04E /* SettingsViewController.m */; };
+		305CFE2D285338DA006EB04E /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 305CFE2B285338DA006EB04E /* SettingsViewController.xib */; };
+		3065C51B286062DC00275ECA /* ForgotPasswordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3065C519286062DB00275ECA /* ForgotPasswordVC.m */; };
+		3065C51C286062DC00275ECA /* ForgotPasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3065C51A286062DB00275ECA /* ForgotPasswordVC.xib */; };
+		308902882856F98B001B6492 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 308902862856F98B001B6492 /* LoginVC.m */; };
+		308902892856F98B001B6492 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 308902872856F98B001B6492 /* LoginVC.xib */; };
+		30B19901286235DB002BF297 /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B19900286235DB002BF297 /* Helper.m */; };
+		30CE5DE72851C46B002F31D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CE5DE62851C46B002F31D9 /* AppDelegate.m */; };
+		30CE5DEA2851C46B002F31D9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CE5DE92851C46B002F31D9 /* SceneDelegate.m */; };
+		30CE5DED2851C46B002F31D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CE5DEC2851C46B002F31D9 /* ViewController.m */; };
+		30CE5DF02851C46B002F31D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30CE5DEE2851C46B002F31D9 /* Main.storyboard */; };
+		30CE5DF22851C472002F31D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30CE5DF12851C472002F31D9 /* Assets.xcassets */; };
+		30CE5DF52851C472002F31D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30CE5DF32851C472002F31D9 /* LaunchScreen.storyboard */; };
+		30CE5DF82851C472002F31D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CE5DF72851C472002F31D9 /* main.m */; };
+		30CE5E042851DAD5002F31D9 /* ServerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CE5E022851DAD5002F31D9 /* ServerViewController.m */; };
+		30CE5E052851DAD5002F31D9 /* ServerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30CE5E032851DAD5002F31D9 /* ServerViewController.xib */; };
+		30DFE96828655453006A7CE5 /* Pods_CalsSDKDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4C3B561B170704B19446DAF /* Pods_CalsSDKDemo.framework */; };
+		30DFE96928655453006A7CE5 /* Pods_CalsSDKDemo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D4C3B561B170704B19446DAF /* Pods_CalsSDKDemo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		51EDFBBB2865AAEE00620597 /* CalsplatzSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51EDFBBA2865AAEE00620597 /* CalsplatzSDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3022F821285726CB004C79FC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				30DFE96928655453006A7CE5 /* Pods_CalsSDKDemo.framework in Embed Frameworks */,
+				3022F820285726CB004C79FC /* (null) in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		284349B77F530B0D8221AB75 /* Pods-CalsSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalsSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-CalsSDKDemo/Pods-CalsSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		305CFE29285338DA006EB04E /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		305CFE2A285338DA006EB04E /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		305CFE2B285338DA006EB04E /* SettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		3065C518286062DB00275ECA /* ForgotPasswordVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForgotPasswordVC.h; sourceTree = "<group>"; };
+		3065C519286062DB00275ECA /* ForgotPasswordVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForgotPasswordVC.m; sourceTree = "<group>"; };
+		3065C51A286062DB00275ECA /* ForgotPasswordVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgotPasswordVC.xib; sourceTree = "<group>"; };
+		308902852856F98B001B6492 /* LoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		308902862856F98B001B6492 /* LoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		308902872856F98B001B6492 /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
+		30B198FF286235DB002BF297 /* Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		30B19900286235DB002BF297 /* Helper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
+		30CE5DE22851C46B002F31D9 /* CalsSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalsSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30CE5DE52851C46B002F31D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		30CE5DE62851C46B002F31D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		30CE5DE82851C46B002F31D9 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		30CE5DE92851C46B002F31D9 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		30CE5DEB2851C46B002F31D9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		30CE5DEC2851C46B002F31D9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		30CE5DEF2851C46B002F31D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30CE5DF12851C472002F31D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30CE5DF42851C472002F31D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30CE5DF62851C472002F31D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30CE5DF72851C472002F31D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30CE5E012851DAD5002F31D9 /* ServerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServerViewController.h; sourceTree = "<group>"; };
+		30CE5E022851DAD5002F31D9 /* ServerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServerViewController.m; sourceTree = "<group>"; };
+		30CE5E032851DAD5002F31D9 /* ServerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ServerViewController.xib; sourceTree = "<group>"; };
+		51EDFBBA2865AAEE00620597 /* CalsplatzSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CalsplatzSDK.framework; sourceTree = "<group>"; };
+		9B451E82D503F6C0DA7060DA /* Pods-CalsSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalsSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-CalsSDKDemo/Pods-CalsSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D4C3B561B170704B19446DAF /* Pods_CalsSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalsSDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30CE5DDF2851C46B002F31D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51EDFBBB2865AAEE00620597 /* CalsplatzSDK.framework in Frameworks */,
+				30DFE96828655453006A7CE5 /* Pods_CalsSDKDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		123C15F6E7E95CFFCA477C0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B451E82D503F6C0DA7060DA /* Pods-CalsSDKDemo.debug.xcconfig */,
+				284349B77F530B0D8221AB75 /* Pods-CalsSDKDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		30B198FC286234FD002BF297 /* AuthenticationSample */ = {
+			isa = PBXGroup;
+			children = (
+				308902852856F98B001B6492 /* LoginVC.h */,
+				308902862856F98B001B6492 /* LoginVC.m */,
+				308902872856F98B001B6492 /* LoginVC.xib */,
+				3065C518286062DB00275ECA /* ForgotPasswordVC.h */,
+				3065C519286062DB00275ECA /* ForgotPasswordVC.m */,
+				3065C51A286062DB00275ECA /* ForgotPasswordVC.xib */,
+			);
+			path = AuthenticationSample;
+			sourceTree = "<group>";
+		};
+		30B198FD2862354C002BF297 /* SettingsSample */ = {
+			isa = PBXGroup;
+			children = (
+				30CE5E012851DAD5002F31D9 /* ServerViewController.h */,
+				30CE5E022851DAD5002F31D9 /* ServerViewController.m */,
+				30CE5E032851DAD5002F31D9 /* ServerViewController.xib */,
+				305CFE29285338DA006EB04E /* SettingsViewController.h */,
+				305CFE2A285338DA006EB04E /* SettingsViewController.m */,
+				305CFE2B285338DA006EB04E /* SettingsViewController.xib */,
+			);
+			path = SettingsSample;
+			sourceTree = "<group>";
+		};
+		30B198FE28623576002BF297 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				30B198FF286235DB002BF297 /* Helper.h */,
+				30B19900286235DB002BF297 /* Helper.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		30CE5DD92851C46B002F31D9 = {
+			isa = PBXGroup;
+			children = (
+				30CE5DE42851C46B002F31D9 /* CalsSDKDemo */,
+				30CE5DE32851C46B002F31D9 /* Products */,
+				123C15F6E7E95CFFCA477C0F /* Pods */,
+				EC3362EDB60F9C45F3772BD9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		30CE5DE32851C46B002F31D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30CE5DE22851C46B002F31D9 /* CalsSDKDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30CE5DE42851C46B002F31D9 /* CalsSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				51EDFBBA2865AAEE00620597 /* CalsplatzSDK.framework */,
+				30B198FC286234FD002BF297 /* AuthenticationSample */,
+				30B198FD2862354C002BF297 /* SettingsSample */,
+				30B198FE28623576002BF297 /* Helpers */,
+				30CE5DE52851C46B002F31D9 /* AppDelegate.h */,
+				30CE5DE62851C46B002F31D9 /* AppDelegate.m */,
+				30CE5DE82851C46B002F31D9 /* SceneDelegate.h */,
+				30CE5DE92851C46B002F31D9 /* SceneDelegate.m */,
+				30CE5DEB2851C46B002F31D9 /* ViewController.h */,
+				30CE5DEC2851C46B002F31D9 /* ViewController.m */,
+				30CE5DEE2851C46B002F31D9 /* Main.storyboard */,
+				30CE5DF12851C472002F31D9 /* Assets.xcassets */,
+				30CE5DF32851C472002F31D9 /* LaunchScreen.storyboard */,
+				30CE5DF62851C472002F31D9 /* Info.plist */,
+				30CE5DF72851C472002F31D9 /* main.m */,
+			);
+			path = CalsSDKDemo;
+			sourceTree = "<group>";
+		};
+		EC3362EDB60F9C45F3772BD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4C3B561B170704B19446DAF /* Pods_CalsSDKDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30CE5DE12851C46B002F31D9 /* CalsSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30CE5DFB2851C472002F31D9 /* Build configuration list for PBXNativeTarget "CalsSDKDemo" */;
+			buildPhases = (
+				3D547AE88FA48C14DB857AF6 /* [CP] Check Pods Manifest.lock */,
+				30CE5DDE2851C46B002F31D9 /* Sources */,
+				30CE5DDF2851C46B002F31D9 /* Frameworks */,
+				30CE5DE02851C46B002F31D9 /* Resources */,
+				3022F821285726CB004C79FC /* Embed Frameworks */,
+				8EA65987617EE3AEE754D3E6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalsSDKDemo;
+			productName = CalsSDKDemo;
+			productReference = 30CE5DE22851C46B002F31D9 /* CalsSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30CE5DDA2851C46B002F31D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					30CE5DE12851C46B002F31D9 = {
+						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
+					};
+				};
+			};
+			buildConfigurationList = 30CE5DDD2851C46B002F31D9 /* Build configuration list for PBXProject "CalsSDKDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ko,
+			);
+			mainGroup = 30CE5DD92851C46B002F31D9;
+			productRefGroup = 30CE5DE32851C46B002F31D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30CE5DE12851C46B002F31D9 /* CalsSDKDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30CE5DE02851C46B002F31D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				308902892856F98B001B6492 /* LoginVC.xib in Resources */,
+				305CFE2D285338DA006EB04E /* SettingsViewController.xib in Resources */,
+				3065C51C286062DC00275ECA /* ForgotPasswordVC.xib in Resources */,
+				30CE5DF52851C472002F31D9 /* LaunchScreen.storyboard in Resources */,
+				30CE5DF22851C472002F31D9 /* Assets.xcassets in Resources */,
+				30CE5DF02851C46B002F31D9 /* Main.storyboard in Resources */,
+				30CE5E052851DAD5002F31D9 /* ServerViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D547AE88FA48C14DB857AF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CalsSDKDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EA65987617EE3AEE754D3E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CalsSDKDemo/Pods-CalsSDKDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CalsSDKDemo/Pods-CalsSDKDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CalsSDKDemo/Pods-CalsSDKDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30CE5DDE2851C46B002F31D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30B19901286235DB002BF297 /* Helper.m in Sources */,
+				30CE5DED2851C46B002F31D9 /* ViewController.m in Sources */,
+				30CE5DE72851C46B002F31D9 /* AppDelegate.m in Sources */,
+				3065C51B286062DC00275ECA /* ForgotPasswordVC.m in Sources */,
+				30CE5DF82851C472002F31D9 /* main.m in Sources */,
+				30CE5E042851DAD5002F31D9 /* ServerViewController.m in Sources */,
+				30CE5DEA2851C46B002F31D9 /* SceneDelegate.m in Sources */,
+				308902882856F98B001B6492 /* LoginVC.m in Sources */,
+				305CFE2C285338DA006EB04E /* SettingsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		30CE5DEE2851C46B002F31D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30CE5DEF2851C46B002F31D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30CE5DF32851C472002F31D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30CE5DF42851C472002F31D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30CE5DF92851C472002F31D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		30CE5DFA2851C472002F31D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30CE5DFC2851C472002F31D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B451E82D503F6C0DA7060DA /* Pods-CalsSDKDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XF7K9N6497;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CalsSDKDemo/CALS/Pods/Crashlytics",
+					"$(PROJECT_DIR)/CalsSDKDemo/CALS/Pods/Crashlytics/iOS",
+					"$(PROJECT_DIR)/CalsSDKDemo/CALS/Pods/FirebaseAnalytics/Frameworks",
+					"$(PROJECT_DIR)/CalsSDKDemo/CALS/Pods/Fabric",
+					"$(PROJECT_DIR)/CalsSDKDemo/CALS/Pods/Fabric/iOS",
+					"$(PROJECT_DIR)/CalsSDKDemo/CALS/Pods/GoogleAppMeasurement/Frameworks",
+					"$(PROJECT_DIR)/CalsSDKDemo",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CalsSDKDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/lib/swift,
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quintet.CalsSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/$(SWIFT_MODULE_NAME)-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_WORKSPACE = YES;
+			};
+			name = Debug;
+		};
+		30CE5DFD2851C472002F31D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 284349B77F530B0D8221AB75 /* Pods-CalsSDKDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XF7K9N6497;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CalsSDKDemo/CALS/Pods/Crashlytics",
+					"$(PROJECT_DIR)/CalsSDKDemo/CALS/Pods/Crashlytics/iOS",
+					"$(PROJECT_DIR)/CalsSDKDemo/CALS/Pods/FirebaseAnalytics/Frameworks",
+					"$(PROJECT_DIR)/CalsSDKDemo/CALS/Pods/Fabric",
+					"$(PROJECT_DIR)/CalsSDKDemo/CALS/Pods/Fabric/iOS",
+					"$(PROJECT_DIR)/CalsSDKDemo/CALS/Pods/GoogleAppMeasurement/Frameworks",
+					"$(PROJECT_DIR)/CalsSDKDemo",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CalsSDKDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/lib/swift,
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quintet.CalsSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/$(SWIFT_MODULE_NAME)-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_WORKSPACE = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30CE5DDD2851C46B002F31D9 /* Build configuration list for PBXProject "CalsSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30CE5DF92851C472002F31D9 /* Debug */,
+				30CE5DFA2851C472002F31D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30CE5DFB2851C472002F31D9 /* Build configuration list for PBXNativeTarget "CalsSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30CE5DFC2851C472002F31D9 /* Debug */,
+				30CE5DFD2851C472002F31D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30CE5DDA2851C46B002F31D9 /* Project object */;
+}
